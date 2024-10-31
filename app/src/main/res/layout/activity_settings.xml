@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Settings">
+
+    <ImageButton
+        android:id="@+id/logout_btn"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="268dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/img_btn"
+        android:src="@drawable/logout"
+        android:text="Logout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.184"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/logout"
+        android:textColor="#00A5A5"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/logout_btn"
+        app:layout_constraintEnd_toStartOf="@+id/logout_btn"
+        app:layout_constraintHorizontal_bias="0.193"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/logout_btn"
+        app:layout_constraintVertical_bias="0.375" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="72dp"
+        android:text="@string/click_sound"
+        android:textColor="#00A5A5"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_click_sound"
+        app:layout_constraintEnd_toStartOf="@+id/btn_click_sound"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btn_background_sound"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/img_btn"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.955"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btn_click_sound"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/img_btn"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="@+id/btn_background_sound"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btn_background_sound"
+        app:layout_constraintTop_toBottomOf="@+id/btn_background_sound" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/background_music"
+        android:textColor="#00A5A5"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_background_sound"
+        app:layout_constraintEnd_toStartOf="@+id/btn_background_sound"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="176dp"
+        android:text="@string/change_language"
+        android:textColor="#00A5A5"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/eg_lang_btn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="384dp"
+        android:background="@drawable/img_btn"
+        android:scaleType="centerCrop"
+        app:cornerRadius="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView7"
+        app:layout_constraintHorizontal_bias="0.183"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/egy" />
+
+    <ImageButton
+        android:id="@+id/usa_lang_btn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/img_btn"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/eg_lang_btn"
+        app:layout_constraintStart_toEndOf="@+id/eg_lang_btn"
+        app:layout_constraintTop_toTopOf="@+id/eg_lang_btn"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/uk" />
+
+    <ImageButton
+        android:id="@+id/spain_lang_btn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/img_btn"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/usa_lang_btn"
+        app:layout_constraintStart_toEndOf="@+id/usa_lang_btn"
+        app:layout_constraintTop_toTopOf="@+id/usa_lang_btn"
+        app:srcCompat="@drawable/spain_flag" />
+
+    <ImageButton
+        android:id="@+id/france_lang_btn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/img_btn"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="@+id/eg_lang_btn"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eg_lang_btn"
+        app:srcCompat="@drawable/france" />
+
+    <ImageButton
+        android:id="@+id/italy_lang_btn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/img_btn"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="@+id/usa_lang_btn"
+        app:layout_constraintStart_toStartOf="@+id/usa_lang_btn"
+        app:layout_constraintTop_toBottomOf="@+id/usa_lang_btn"
+        app:srcCompat="@drawable/italy_flag" />
+
+    <ImageButton
+        android:id="@+id/german_lang_btn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/img_btn"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="@+id/spain_lang_btn"
+        app:layout_constraintStart_toStartOf="@+id/spain_lang_btn"
+        app:layout_constraintTop_toBottomOf="@+id/spain_lang_btn"
+        app:srcCompat="@drawable/german_flag" />
+</androidx.constraintlayout.widget.ConstraintLayout>

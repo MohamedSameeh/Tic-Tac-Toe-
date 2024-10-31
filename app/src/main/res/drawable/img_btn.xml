@@ -1,0 +1,7 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+  <item>
+    <shape android:shape="ring">
+      <solid android:color="@android:color/transparent"/> <!-- Transparent background -->
+    </shape>
+  </item>
+</layer-list>

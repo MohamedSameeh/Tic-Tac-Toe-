@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Proyecto Final para Java Android</string>
+    <string name="two_players">Dos jugadores</string>
+    <string name="play_solo">Un jugador</string>
+    <string name="settings">Configuraciones</string>
+    <string name="game_mode">Modo de juego</string>
+    <string name="easy_mode">Fácil</string>
+    <string name="hard_mode">Difícil</string>
+    <string name="choose_your_letter">Elige tu letra</string>
+    <string name="player_1_name">Nombre del jugador 1</string>
+    <string name="player_2_name">Nombre del jugador 2</string>
+    <string name="player1_letter">Letra del jugador 1</string>
+    <string name="you_game">Tú</string>
+    <string name="bot_game">Bot</string>
+    <string name="score">Puntuación</string>
+    <string name="game">Turno</string>
+    <string name="background_music">Música de fondo</string>
+    <string name="click_sound">Efectos de sonido</string>
+    <string name="change_language">Cambiar idioma</string>
+    <string name="btn_on">Encendido</string>
+    <string name="btn_off">Apagado</string>
+    <string name="choose_language">Elige un idioma</string>
+    <string name="change">Cambiar</string>
+    <string name="on">Activado</string>
+    <string name="twoError">Por favor, introduce los nombres de los jugadores</string>
+    <string name="friend1Error">Por favor, introduce el nombre del jugador 2</string>
+    <string name="player2Error">Por favor, introduce el nombre del jugador 1</string>
+    <string name="logout">Cerrar sesión</string>
+    <string name="you">Tú :</string>
+    <string name="bot">Bot :</string>
+    <string name="welcome_back">Bienvenido!</string>
+    <string name="sign_in">Iniciar</string>
+    <string name="dont_have_an_account">Sin cuenta?</string>
+    <string name="sign_up">Regístrate</string>
+    <string name="email">Correo</string>
+    <string name="password">Clave</string>
+    <string name="already_have_an_account">Ya tienes una cuenta?</string>
+    <string name="username">Nombre de usuario</string>
+    <string name="please_fill_in_both_fields">Por favor, completa ambos campos</string>
+    <string name="login_successful">Inicio de sesión exitoso</string>
+    <string name="invalid_email_or_password">Correo o contraseña inválidos</string>
+    <string name="fill_all_the_fields_please">Por favor, completa todos los campos</string>
+    <string name="congratulations"> Felicitaciones </string>
+    <string name="good_game">Buen juego!</string>
+    <string name="wanna_play_again">Quieres jugar otra vez?</string>
+    <string name="new_game">Nuevo juego</string>
+    <string name="cancel">Cancelar</string>
+    <string name="sign_up_successfully">Registro exitoso</string>
+
+
+</resources>
